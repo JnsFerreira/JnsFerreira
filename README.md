@@ -18,7 +18,7 @@ class DataEngineer:
             "Machine Learning",
             "Cloud Platforms"
         ]
-        self.knowledge_base.insert(0, "Backend Engineering")
+        self.knowledge_base.insert(0, "Clean Code")
 
     def say_hi(self):
         print("""Hey, whats up? My name is {self.name} and i live in {self.location}. 
