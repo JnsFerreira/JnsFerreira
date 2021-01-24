@@ -7,7 +7,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-
 class DataEngineer:
     def __init__(self):
         self.name = "Jonas Ferreira"
@@ -20,13 +19,13 @@ class DataEngineer:
         ]
         self.knowledge_base.insert(0, "Clean Code")
 
-    def say_hi(self):
+    def say_hello(self):
         print("""Hey, whats up? My name is {self.name} and i live in {self.location}. 
                  Nowadays i am working as a {role} and recently I am focusing on {self.knowledge_base[0]} 
                  and {self.knowledge_base[2]} for my personal and professional growth.""")
        
 me = DataEngineer()
-me.say_hi()
+me.say_hello()
 
 ```
 
