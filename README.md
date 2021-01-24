@@ -38,5 +38,7 @@ me.say_hello()
 ![](https://img.shields.io/badge/Tools-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=blueviolet)
 ![](https://img.shields.io/badge/Tools-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=blueviolet)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=blueviolet)
-![](https://img.shields.io/badge/Tools-GCP-informational?style=flat&logo=googlecloud&logoColor=white&color=blueviolet)
+![](https://img.shields.io/badge/Tools-GCP-informational?style=flat&logo=google&logoColor=white&color=blueviolet)
+![](https://img.shields.io/badge/Tools-AWS-informational?style=flat&logo=aws&logoColor=white&color=blueviolet)
+![](https://img.shields.io/badge/Tools-Azure-informational?style=flat&logo=azure&logoColor=white&color=blueviolet)
 
