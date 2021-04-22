@@ -13,7 +13,7 @@ class DataEngineer:
         self.role = "Data Engineer"
         self.location = "Brazil"
         self.knowledge_base = [
-            "Data Enginnering",
+            "Data Engineering",
             "Machine Learning",
             "Cloud Platforms"
         ]
