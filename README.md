@@ -20,7 +20,7 @@ class DataEngineer:
         self.knowledge_base.insert(0, "Clean Code")
 
     def say_hello(self):
-        print("""Hey, whats up? My name is {self.name} and i live in {self.location}. 
+        print(f"""Hey, whats up? My name is {self.name} and i live in {self.location}. 
                  Nowadays i am working as a {role} and recently I am focusing on {self.knowledge_base[0]} 
                  and {self.knowledge_base[2]} for my personal and professional growth.""")
        
