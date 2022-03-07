@@ -11,7 +11,7 @@ from dataclasses import dataclass
 
 @dataclass
 class DataEngineer:
-    """Makes data pipelines and do magic"
+    """Makes data pipelines and do magic"""
 
     name: str = "Jonas Ferreira"
     role: str = "Data Engineer"
