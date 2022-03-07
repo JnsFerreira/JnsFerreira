@@ -6,17 +6,23 @@
 ```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from dataclasses import dataclass
 
+
+@dataclass
 class DataEngineer:
-    def __init__(self):
-        self.name = "Jonas Ferreira"
-        self.role = "Data Engineer"
-        self.location = "Brazil"
-        self.knowledge_base = [
-            "Data Engineering",
-            "Machine Learning",
-            "Cloud Platforms"
-        ]
+    """Makes data pipelines and do magic"
+
+    name: str = "Jonas Ferreira"
+    role: str = "Data Engineer"
+    location: str = "Brazil"
+    knowledge_base: list = [
+        "Data Engineering",
+        "Machine Learning",
+        "Cloud Platforms"
+    ]
+    
+    def __post_init__(self):
         self.knowledge_base.insert(0, "Clean Code")
 
     def say_hello(self):
